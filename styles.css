@@ -130,3 +130,16 @@ margin-top:500px;
     /* padding: 20px 100px; Add padding of 20px top/bottom and 100px left/right */
 }
 
+.social-media 
+{
+    margin-left: 1200px;
+    display: flex; /* Use flexbox for social media logos */
+}
+
+.social-logo 
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px; /* Space between logos */
+}
+
