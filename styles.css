@@ -1,16 +1,5 @@
-#logo{
-    background-color: aqua;
-    display: block;
-margin-left: 100px;
-margin-right: auto;
-    width: 50%;
-}
 
-.menu{
-    display: inline-block;
-    text-decoration: none;
-    flex-direction: column;
-}
+
 
 .theBacon{
     height: 500px;
@@ -50,7 +39,7 @@ button:hover{
 
 }
 
-button{
+button{ overflow: auto;
     color: rgb(255, 255, 255);
     border-color: transparent;
      size: 200px;
@@ -61,3 +50,97 @@ button{
    margin-left: 980px;
 
 height:50px ;}
+
+.photos{ overflow: auto;
+    margin-top: 270px;
+    float: inline-start;
+    height: 300px;
+}
+
+.gallery{ 
+    overflow: auto;
+   text-align: center;
+    margin-left: 20px;
+    float: inline-start;
+    flex-direction: row;
+    
+}
+
+.gallery1{ 
+    overflow: auto;
+    text-align: center;
+    margin-left: 320px;
+    float: inline-start;
+    flex-direction: row;
+   
+}
+
+.discrip{overflow: auto;
+float: inline-start;
+margin-top:500px;
+
+}
+
+#logo
+{
+    display: block;
+    margin: 20px auto; /* Centers the image horizontally and adds top/bottom margin */
+}
+
+/* Styling the menu */
+.menue 
+{
+    text-align: center;
+    margin: 20px 0; /* Adds spacing above and below the menu */
+}
+
+.menue ul 
+{
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0;
+    margin: 0;
+}
+
+.menue li 
+{
+    display: inline-block; /* Display list items inline */
+    margin: 0 15px; /* Adds space between the menu items */
+}
+
+.menue a 
+{
+    text-decoration: none; /* Removes the underline from links */
+    font-size: 18px;
+    color: black;
+}
+
+/* Hover effect for links */
+.menue a:hover 
+{
+    color: aqua;
+}
+
+.footer 
+{ overflow: auto;
+    height: 100px;
+    margin-top: 600px;
+    background-color: black; 
+    color: white;
+    text-align: left;
+    /* padding: 20px 100px; Add padding of 20px top/bottom and 100px left/right */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between paragraph and social media logos */
+    align-items: center;
+}
+
+.social-media 
+{
+    display: flex; /* Use flexbox for social media logos */
+}
+
+.social-logo 
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px; /* Space between logos */
+}
