@@ -128,19 +128,5 @@ margin-top:500px;
     color: white;
     text-align: left;
     /* padding: 20px 100px; Add padding of 20px top/bottom and 100px left/right */
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space between paragraph and social media logos */
-    align-items: center;
 }
 
-.social-media 
-{
-    display: flex; /* Use flexbox for social media logos */
-}
-
-.social-logo 
-{
-    width: 30px;
-    height: 30px;
-    margin-left: 10px; /* Space between logos */
-}

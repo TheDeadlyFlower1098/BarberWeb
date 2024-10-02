@@ -1,0 +1,104 @@
+/* Global reset*/
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center the content on the page */
+}
+
+/* Styling the logo */
+img 
+{
+    display: block;
+    margin: 20px auto; /* Centers the image horizontally and adds top/bottom margin */
+}
+
+/* Styling the menu */
+.menue 
+{
+    margin: 20px 0; /* Adds spacing above and below the menu */
+}
+
+.menue ul 
+{
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0;
+    margin: 0;
+}
+
+.menue li 
+{
+    display: inline-block; /* Display list items inline */
+    margin: 0 15px; /* Adds space between the menu items */
+}
+
+.menue a 
+{
+    text-decoration: none; /* Removes the underline from links */
+    font-size: 18px;
+    color: black;
+}
+
+/* Hover effect for links */
+.menue a:hover 
+{
+    color: aqua;
+}
+
+
+/* Additional styles for the title */
+.title 
+{
+    border: 5px solid black; 
+    background-color: black; 
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px auto; /* Center the title block */
+    width: fit-content; /* Adjust width based on content */
+}
+
+/* Styling the images with a border */
+img 
+{
+    display: block;
+    margin: 20px auto; /* Centers the image horizontally and adds top/bottom margin */
+    border: 2px solid black; /* 2px solid black border around images */
+}
+
+.paras
+{
+    padding: 10px;
+}
+
+.footer 
+{
+    background-color: black; 
+    color: white;
+    text-align: left;
+    padding: 20px 100px; /* Add padding of 20px top/bottom and 100px left/right */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between paragraph and social media logos */
+    align-items: center;
+}
+
+.social-media 
+{
+    display: flex; /* Use flexbox for social media logos */
+}
+
+.social-logo 
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px; /* Space between logos */
+}
