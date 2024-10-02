@@ -1,0 +1,63 @@
+#logo{
+    background-color: aqua;
+    display: block;
+margin-left: 100px;
+margin-right: auto;
+    width: 50%;
+}
+
+.menu{
+    display: inline-block;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.theBacon{
+    height: 500px;
+   background-image: url("mainulkdr lecture-resource main CSET-110-Assessment-1 Resource_images/the-beacon.jpg");
+    background-size: cover;
+
+}
+
+.p1{
+    text-align: center;
+ font-size: 20px;
+    width: 400px;
+    color: aliceblue;
+    /* float: inline-end */
+   margin-left: 980px;
+    background-color: rgb(66, 63, 63);
+    height: 35px;
+}
+
+#top{
+    font-size: 30px;
+    width: 350px;
+    color: rgb(0, 0, 0);
+    /* float: inline-end */
+   margin-left: 980px;
+   margin-top: 40px;
+   background-color: rgb(255, 255, 255);
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    size: 50px;
+   background-color: rgb(71, 91, 91);
+   width: 150px;
+ 
+   /* float: inline-end */
+  margin-left: 980px;
+
+}
+
+button{
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+     size: 200px;
+    background-color: rgb(44, 144, 144);
+    width: 150px;
+    
+    /* float: inline-end */
+   margin-left: 980px;
+
+height:50px ;}
